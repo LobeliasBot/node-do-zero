@@ -56,6 +56,6 @@ server.delete('/videos/:id', async (request, reply) =>{
 })
 
 server.listen({
-    host: 'http://lobeliasbot_lobeliasapi:3333/',
+    host: 'https://127.0.0.1',
     port:process.env.PORT ?? 3333
 })
