@@ -56,6 +56,6 @@ server.delete('/videos/:id', async (request, reply) =>{
 })
 
 server.listen({
-    host: '127.0.0.1',
+    host: 'lobeliasbot-lobeliasapi.cjpfud.easypanel.host/',
     port:process.env.PORT ?? 3333
 })
