@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST http://lobeliasbot_lobeliasapi:3333/videos
 Content-type: application/json
 
 {
@@ -9,10 +9,10 @@ Content-type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET http://lobeliasbot_lobeliasapi:3333/videos
 
 ###
-PUT http://localhost:3333/videos/f1619fd1-4e36-4e2f-877b-44468d7474a9
+PUT http://lobeliasbot_lobeliasapi:3333/videos/f1619fd1-4e36-4e2f-877b-44468d7474a9
 Content-Type: application/json
 
 {
@@ -23,4 +23,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/adc77da2-0409-4f03-ad93-6b9ae8d60405
+DELETE http://lobeliasbot_lobeliasapi:3333/videos/adc77da2-0409-4f03-ad93-6b9ae8d60405
