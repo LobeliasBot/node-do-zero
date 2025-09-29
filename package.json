@@ -1,0 +1,22 @@
+{
+    "name": "do-zero",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error:bi teste specified\" && exit 1",
+        "start": "node server",
+        "dev": "node --watch server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^17.2.2",
+        "fastify": "^5.6.1",
+        "git": "^0.1.5",
+        "pg": "^8.16.3",
+        "postgres": "^3.4.7"
+    }
+}
